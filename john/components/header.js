@@ -10,7 +10,7 @@ export default function Header() {
           <Link href='/'>
             <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               <Image
-                src='/../public/profile.jpg'
+                src='https://ifh.cc/g/TY6FKQ.jpg'
                 alt='profile doggie'
                 width={50}
                 height={50}
