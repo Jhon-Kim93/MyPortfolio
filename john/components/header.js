@@ -15,7 +15,7 @@ export default function Header() {
                 width={50}
                 height={50}
               />
-              <span className="ml-3 text-xl">John's portfolio</span>
+              <span className="ml-3 text-3xl font-bold">John's Portfolio</span>
             </a>
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

@@ -21,12 +21,13 @@ body {
 }
 
 .project-card {
-    @apply flex flex-col m-3 rounded-xl w-full
+    @apply flex flex-col m-3 rounded-xl w-full bg-slate-100
             transition duration-300 transform border border-gray-300
             hover:scale-105
             hover:shadow-lg
             dark:border-gray-200/50
             dark:hover:shadow-gray-400/40
+            dark:bg-slate-700/60
             hover:text-blue-600
 }
 
@@ -36,13 +37,21 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
     @apply text-gray-600 dark:text-white
-    bg-gray-100 dark:bg-slate-600/20
+    bg-gray-200 dark:bg-slate-600/20
+}
+
+header {
+  @apply bg-sky-800/30 dark:bg-sky-800/10
 }
 
 a {
-    @apply text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-50
+    @apply text-slate-500 hover:text-slate-700 dark:text-slate-200 dark:hover:text-slate-50
 }
 
 p {
     @apply text-slate-500 dark:text-slate-400
+}
+
+span {
+  @apply dark:text-slate-500
 }
