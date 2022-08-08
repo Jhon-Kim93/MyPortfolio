@@ -7,6 +7,7 @@ const nextConfig = {
       'www.notion.so',
       'images.unsplash.com',
       'i.picsum.photos',
+      'ifh.cc',
     ]
   },
 }
