@@ -8,7 +8,8 @@ const nextConfig = {
       'images.unsplash.com',
       'i.picsum.photos',
       'ifh.cc/g',
-    ]
+    ],
+    format: ['image/png', 'image/webp', 'image/jpeg', 'image/jpg']
   },
 }
 
