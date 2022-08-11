@@ -55,11 +55,9 @@ export default function ProjectItem({project}){
           )) : <h1>No Tags</h1>}
         </div>
         <h3 className="my-5">{description}</h3>
-        <a href={github}>Github</a>
-        <span className="mt-4"> / </span>
-        <a href={youtube}>Youtube</a>
-        <span> / </span>
-        <a href="#">Notion</a>
+        <span>Product Description & Code : </span><a href={github}>Github</a>
+        <br/>
+        <span>UCC : </span><a href={youtube}>Youtube</a>
       </div>
     </div>
   )
