@@ -27,7 +27,7 @@ export default function Header() {
             <Link href="/projects">
               <a className="mr-5 hover:text-gray-900">projects</a>
             </Link>
-            <ContactMe/> 
+            <ContactMe className="ml-4"/> 
           </nav>
           <DarkModeBtn/>
         </div>
